@@ -14,3 +14,4 @@ for (var item of list_items) {
 }
 console.log(`Your list items : ${items}`);
 console.log(`total: $${total}`);
+console.log('----------------------------');
