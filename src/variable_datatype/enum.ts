@@ -38,3 +38,32 @@ const account1: Account = {
 }
 
 console.log(account1)
+
+
+// Enum string value
+enum AnimalType {
+    MAMAL = "MAMAL",
+    INSECT = "INSECT",
+    POULTRY = "POULTRY",
+    FISH = "FISH"
+}
+
+enum AnimalGender {
+    MALE,
+    FEMALE
+}
+
+type Animal = {
+    name: string,
+    gender: AnimalGender,
+    type: AnimalType
+}
+
+
+let animal1 = {
+    name: "Dolphin",
+    gender: AnimalGender.MALE,
+    type: AnimalType.MAMAL
+}
+
+console.log({animal1})

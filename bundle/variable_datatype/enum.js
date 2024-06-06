@@ -23,3 +23,22 @@ const account1 = {
     user_type: UserType.ADMIN
 };
 console.log(account1);
+// Enum string value
+var AnimalType;
+(function (AnimalType) {
+    AnimalType["MAMAL"] = "MAMAL";
+    AnimalType["INSECT"] = "INSECT";
+    AnimalType["POULTRY"] = "POULTRY";
+    AnimalType["FISH"] = "FISH";
+})(AnimalType || (AnimalType = {}));
+var AnimalGender;
+(function (AnimalGender) {
+    AnimalGender[AnimalGender["MALE"] = 0] = "MALE";
+    AnimalGender[AnimalGender["FEMALE"] = 1] = "FEMALE";
+})(AnimalGender || (AnimalGender = {}));
+let animal1 = {
+    name: "Dolphin",
+    gender: AnimalGender.MALE,
+    type: AnimalType.MAMAL
+};
+console.log({ animal1 });
