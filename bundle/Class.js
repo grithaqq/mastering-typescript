@@ -32,3 +32,12 @@ class Programmer extends Person2 {
 }
 const askar = new Programmer("Askar", true, "askar@me.com", 2, ["JavaScript", "TypeScript", "C#"]);
 askar.sayName();
+const p1 = {
+    name: "Danil",
+    id: 1
+};
+const p2 = {
+    name: "Kentang",
+    id: "2"
+};
+console.log({ p1, p2 });

@@ -53,3 +53,4 @@ let olan = {
     gender: "male"
 };
 console.log({ afif, olan });
+console.info(olan);
