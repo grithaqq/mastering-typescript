@@ -70,27 +70,3 @@ kytHelmet = {
 console.log(kucing);
 console.log(kytHelmet);
 
-
-// interface
-
-interface Person {
-    name: string;
-    age: number;
-    gender: string;
-}
-
-let afif: Person ={
-    name: "Afif",
-    age: 26,
-    gender: "male"
-};
-
-let olan: Person = {
-    name: "olan",
-    age: 27,
-    gender: "male"
-};
-
-console.log({afif, olan});
-console.info(olan)
-

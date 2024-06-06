@@ -11,4 +11,4 @@ sayHay("Grithaq");
 const kosong = undefined;
 sayHay(kosong); //undefine value
 sayHay(); //undefine
-sayHay(null);
+sayHay(null); //null value

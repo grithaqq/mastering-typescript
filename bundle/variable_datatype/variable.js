@@ -42,15 +42,3 @@ kytHelmet = {
 };
 console.log(kucing);
 console.log(kytHelmet);
-let afif = {
-    name: "Afif",
-    age: 26,
-    gender: "male"
-};
-let olan = {
-    name: "olan",
-    age: 27,
-    gender: "male"
-};
-console.log({ afif, olan });
-console.info(olan);
