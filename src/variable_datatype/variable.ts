@@ -93,3 +93,4 @@ let olan: Person = {
 
 console.log({afif, olan});
 console.info(olan)
+

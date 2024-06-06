@@ -58,24 +58,3 @@ class Programmer extends Person2 {
 
 const askar = new Programmer("Askar", true, "askar@me.com", 2, ["JavaScript", "TypeScript", "C#"]);
 askar.sayName();
-
-// Type Aliases
-
-type StringOrNumber = string | number;
-
-type PersonObject = {
-    name: string;
-    id: StringOrNumber;
-};
-
-const p1: PersonObject = {
-    name: "Danil",
-    id: 1
-};
-
-const p2: PersonObject = {
-    name: "Kentang",
-    id: "2"
-}
-
-console.log({p1,p2})
