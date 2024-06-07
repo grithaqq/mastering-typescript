@@ -21,7 +21,7 @@ let olan: Person = {
 console.log({afif, olan});
 console.info(olan)
 
-enum PlayerRole {
+export enum PlayerRole {
     SETTER,
     OUTSIDE_HITTER,
     OPPOSITE_HITTER,
@@ -30,7 +30,7 @@ enum PlayerRole {
 }
 
 
-interface Player {
+export interface Player {
     name: string,
     role: PlayerRole,
     hight: number,

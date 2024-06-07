@@ -1,5 +1,7 @@
 "use strict";
 // interface
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.PlayerRole = void 0;
 let afif = {
     name: "Afif",
     age: 26,
@@ -19,7 +21,7 @@ var PlayerRole;
     PlayerRole[PlayerRole["OPPOSITE_HITTER"] = 2] = "OPPOSITE_HITTER";
     PlayerRole[PlayerRole["LIBERO"] = 3] = "LIBERO";
     PlayerRole[PlayerRole["MIDLE_BLOCK"] = 4] = "MIDLE_BLOCK";
-})(PlayerRole || (PlayerRole = {}));
+})(PlayerRole || (exports.PlayerRole = PlayerRole = {}));
 const hinata = {
     name: "Hinata Shoyo",
     role: PlayerRole.MIDLE_BLOCK,
