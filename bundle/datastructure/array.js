@@ -45,3 +45,7 @@ let numbers1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let evenNumbers = numbers1.filter(num => num % 2 === 0);
 console.log(evenNumbers);
 console.log(numbers1);
+const hobbies = ["Sports", "Cooking"];
+console.log(hobbies);
+//hobbies[0] = "Travelling"; // This will throw an error
+console.log(hobbies);
